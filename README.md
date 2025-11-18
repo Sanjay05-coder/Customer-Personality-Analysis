@@ -1,7 +1,7 @@
 Customer Personality Analysis
 
 
-📌 Project Overview
+##📌 Project Overview
 
 
 This project analyzes customer personality data to predict their likelihood of responding to marketing campaigns. The main objective is to classify customers into two categories:
@@ -13,7 +13,7 @@ This project analyzes customer personality data to predict their likelihood of r
 
 The analysis helps businesses understand customer behavior and improve targeted marketing strategies.
 
-✅ Dataset Details
+##Dataset Details
 
 Source: Marketing Campaign Dataset
 Key Features:
@@ -27,28 +27,28 @@ Past Campaigns: AcceptedCmp1–AcceptedCmp5
 Target Variable: Response (Binary: 0 or 1)
 
 
-🛠 Project Workflow
+##🛠 Project Workflow
 
-Data Cleaning
+##Data Cleaning
 
 Handle missing values
 Remove unecessary column
 Remove duplicates
 
 
-Feature Engineering
+##Feature Engineering
 
 Create TotalSpend to reduce multicollinearity
 Convert birth year to age
 Encode categorical variables
 
 
-Feature Scaling
+##Feature Scaling
 
 Applied scaling for models that require it (Logistic Regression, SVM, K-NN)
 
 
-Model Training
+##Model Training
 
 Logistic Regression
 Support Vector Machine (SVM)
@@ -57,7 +57,7 @@ Decision Tree
 XGBoost
 
 
-Evaluation
+##Evaluation
 
 Confusion Matrix
 Accuracy, Precision, Recall, F1-score
@@ -66,29 +66,29 @@ Model comparison visualization
 
 
 
-📊 Results
+## Results
 
 Model Accuracy Comparison:
 
 Logistic Regression, XGBoost, SVM, K-NN, Decision Tree compared visually
 
 
-Confusion Matrix:
+##Confusion Matrix:
 
 Shows performance for predicting buyers vs non-buyers
 
 
-Key Insight:
+##Key Insight:
 
 High accuracy overall, but recall for buyers is lower due to class imbalance
 Suggested improvements: SMOTE, class weights, threshold tuning
 
 
-✅ Model Evaluation
+## Model Evaluation
 To evaluate performance beyond accuracy, we used:
 
 
-Confusion Matrix:
+##Confusion Matrix:
 Shows how well the model predicts buyers (1) vs non-buyers (0).
 Example:
 
@@ -99,7 +99,7 @@ False Positives (FP): Incorrectly predicted buyers
 
 
 
-Metrics:
+##Metrics:
 
 Precision: How many predicted buyers were actually buyers.
 Recall: How many actual buyers were correctly predicted.
