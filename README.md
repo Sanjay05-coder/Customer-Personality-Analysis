@@ -1,8 +1,14 @@
 Customer Personality Analysis
+
+
 📌 Project Overview
+
+
 This project analyzes customer personality data to predict their likelihood of responding to marketing campaigns. The main objective is to classify customers into two categories:
 
 0 → Did not accept the last campaign
+
+
 1 → Accepted the last campaign
 
 The analysis helps businesses understand customer behavior and improve targeted marketing strategies.
